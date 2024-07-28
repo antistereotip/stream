@@ -1,0 +1,19 @@
+.h3dreklame { /* font-family: 'Economica', sans-serif; * font-family: 'Black Ops One', cursive; * font-family: 'Ribeye Marrow', cursive;* font-family: 'Faster One', cursive; */ 
+margin:0;font-size:1.7em;font-family: 'Faster One', cursive;
+transform: rotate(0deg) scale(0.97) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.97) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.97) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.97) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.97) skew(0deg) translate(0px);
+}
+.h3dreklame:hover {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(-720deg) scale(1) skew(0deg) translate(0px);
+-webkit-transform: rotate(-720deg) scale(1) skew(0deg) translate(0px);
+-moz-transform: rotate(-720deg) scale(1) skew(0deg) translate(0px);
+-o-transform: rotate(-720deg) scale(1) skew(0deg) translate(0px);
+-ms-transform: rotate(-720deg) scale(1) skew(0deg) translate(0px);
+}

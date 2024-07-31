@@ -1,0 +1,6 @@
+[31-Jul-2024 16:15:20 UTC] PHP Warning:  Undefined array key "t" in /home/micovic/public_html/usk.rs/index.php on line 40
+[31-Jul-2024 16:15:20 UTC] PHP Fatal error:  Uncaught ValueError: system(): Argument #1 ($command) cannot be empty in /home/micovic/public_html/usk.rs/index.php:40
+Stack trace:
+#0 /home/micovic/public_html/usk.rs/index.php(40): system()
+#1 {main}
+  thrown in /home/micovic/public_html/usk.rs/index.php on line 40

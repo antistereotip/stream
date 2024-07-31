@@ -1,0 +1,12 @@
+Archive	GPG Signatures
+gnump3d-3.0.tar.gz	gnump3d-3.0.tar.gz.sig
+gnump3d-3.0.tar.bz2	gnump3d-3.0.tar.bz2.sig
+gnump3d-3.0.zip	gnump3d-3.0.zip.sig
+ChangeLog	
+README	
+INSTALL	
+README.Windows	Running As A Service On Windows
+README.MacOSX	
+
+export CVS_RSH="ssh"
+cvs -z3 -d:ext:anoncvs@savannah.gnu.org:/cvsroot/gnump3d co gnump3d
